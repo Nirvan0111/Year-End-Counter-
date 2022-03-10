@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2a2e2b;
+    background-image: url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: rgb(195, 241, 68);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Cinzel', sans-serif;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	text-align: center;
+}
+
+.countdown-container {
+	display: flex;
+    
+}
+.bold{
+     font-size: 1.5rem;
+}
+
+.time {
+	display: flex;
+	font-size: 1.2em;
+	flex-direction: column;
+	margin: 0 15px;
+}
+
+.time h1 {
+	margin-bottom: 0;
+}
+
+.time small {
+	color: rgb(215, 241, 153);
+}
+
+.fa-cannabis{
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    animation: fall linear forwards;
+}
+
+@keyframes fall{
+    to {
+        transform: translateY(105vh);
+    }
+}
